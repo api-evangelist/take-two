@@ -1,7 +1,30 @@
 aid: take-two
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/take-two.png
 name: Take Two
-description: Take Two is a company surfaced as a portfolio company of general-catalyst and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Take-Two Interactive Software, Inc. (NASDAQ: TTWO) is a leading developer,
+  publisher, and marketer of interactive entertainment for consumers worldwide,
+  headquartered in New York City. The company delivers its products principally
+  through three wholly owned labels — Rockstar Games, 2K, and Zynga — spanning
+  console, PC, and mobile platforms via physical retail, digital download, online
+  platforms, and cloud streaming. Franchises include Grand Theft Auto, Red Dead
+  Redemption, NBA 2K, Borderlands, and mobile titles such as Words With Friends
+  and Toon Blast. Take-Two is a publicly traded interactive entertainment holding
+  company; it does not publish a public developer API program, developer portal,
+  or API documentation at the corporate level. This profile was surfaced as a
+  general-catalyst job-board listing and carried into the API Evangelist network
+  as a lead; enrichment found no public API surface to catalog.
 url: https://raw.githubusercontent.com/api-evangelist/take-two/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +32,35 @@ x-backed-by:
 - general-catalyst
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-api-surface: none
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Interactive Entertainment
+- Video Games
+- Gaming
+- Mobile Games
+- Publishing
+- Media
+common:
+- type: Website
+  url: https://www.take2games.com/
+- type: InvestorRelations
+  url: https://ir.take2games.com/
+- type: Careers
+  url: https://www.take2games.com/careers
+- type: PrivacyPolicy
+  url: https://www.take2games.com/privacy
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
